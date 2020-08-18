@@ -1,0 +1,63 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+right",
+        "command": "workbench.action.editor.nextChange",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+f5",
+        "command": "-workbench.action.editor.nextChange",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+o",
+        "command": "editor.action.organizeImports",
+        "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+    },
+    {
+        "key": "shift+alt+o",
+        "command": "-editor.action.organizeImports",
+        "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)source\\.organizeImports\\b/"
+    },
+    {
+        "key": "ctrl+enter ctrl+enter",
+        "command": "python.execInTerminal"
+    },
+    {
+        "key": "shift+alt+z",
+        "command": "python.execInTerminal-icon"
+    },
+    {
+        "key": "ctrl+numpad_subtract",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+alt+a",
+        "command": "git.commitAll"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "git.pushTo"
+    },
+    {
+        "key": "ctrl+alt+z",
+        "command": "git.stageAllTracked"
+    },
+    {
+        "key": "ctrl+t ctrl+r",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "-workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.panel.terminal.focus"
+    }
+]
