@@ -59,5 +59,9 @@
     {
         "key": "ctrl+t",
         "command": "workbench.panel.terminal.focus"
+    },
+    {
+        "key": "ctrl+alt+q",
+        "command": "git.pullFrom"
     }
 ]
