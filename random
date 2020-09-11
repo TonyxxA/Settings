@@ -8,24 +8,22 @@ black = "*"
 pylint = "*"
 
 [packages]
-sklearn = "*"
 matplotlib = "*"
 pydot-ng = "*"
 pandas = "*"
 tensorflow = "*"
 keras = "*"
 jupyterlab = "*"
-
 #pypiwin32 = "*" #  Is required for Windows only, install manually and skip locking dependencies when setting up a venv. 
                  #    To do so, run:   pipenv install
                  #                     pipenv isntall pypiwin32 --skip-lock
                  #                     <path to bash>$ git checkout Pipfile.lock
-                 #                                   $ git checkout Pipfile   
+                 #                                  >$ git checkout Pipfile   
                  #///////////
                  # When setting up a venv on linux, just run:    pipenv install
                  #///////////
+sklearn = "*"
                  # Ultimate check: if all steps are completed correctly, then pypiwin32 should not be listed as installed package in this file
-
 
 [requires]
 python_version = "3.8"
